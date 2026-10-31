@@ -3,9 +3,9 @@
 PortSystem          1.0
 PortGroup           golang 1.0
 
-go.setup            github.com/hedhyw/json-log-viewer 1.7.1 v
+go.setup            github.com/hedhyw/json-log-viewer 1.9.2 v
 go.offline_build    no
-go.toolchain_min    1.25.0
+go.toolchain_min    1.27.0
 name                jlv
 revision            0
 
@@ -19,9 +19,9 @@ license             MIT
 maintainers         {gmail.com:herby.gillot @herbygillot} \
                     openmaintainer
 
-checksums           rmd160  7d0e8e4f097adf698a47299e370d1ff89032dfd7 \
-                    sha256  1b008c9285d917a58fe6e1567aac79e590ab23d8091819e7c05ea2a17e76450e \
-                    size    585987
+checksums           rmd160  c6edf48db13a89897aed820fdd7df4b8e9579ae9 \
+                    sha256  ca1eda6bba70669b8486911bb83dc598550bb6a733b7612ed19c517e1e92cad8 \
+                    size    593370
 
 build.cmd           make
 build.pre_args      VERSION=v${version}
