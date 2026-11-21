@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           python 1.0
 
 name                py-pikepdf
-version             10.18.0
+version             10.18.2
 revision            0
 
 categories-append   graphics
@@ -17,9 +17,9 @@ homepage            https://github.com/pikepdf/pikepdf
 
 python.versions     310 311 312 313 314 315
 
-checksums           rmd160  259b3b941ee04b81dee80007eb5a5109236d15cd \
-                    sha256  cb555ebff93482e8a6eb55881488b469bbb2b5675161c1b93a0510a8642d98d0 \
-                    size    10084218
+checksums           rmd160  216531fd5250750b5e7c27e2361a1951be4dad6f \
+                    sha256  b32ee8b0ffe606059dbf3386ebe1dae6e2601098277e22e8c75c2ee982436b43 \
+                    size    10085857
 
 python.pep517_backend \
                     scikit

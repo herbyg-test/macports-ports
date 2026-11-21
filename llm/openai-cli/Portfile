@@ -3,7 +3,7 @@
 PortSystem          1.0
 PortGroup           golang 1.0
 
-go.setup            github.com/openai/openai-cli 1.51.5 v
+go.setup            github.com/openai/openai-cli 1.55.1 v
 go.offline_build    no
 go.toolchain_min    1.26
 revision            0
@@ -23,9 +23,9 @@ license             Apache-2
 maintainers         {gmail.com:herby.gillot @herbygillot} \
                     openmaintainer
 
-checksums           rmd160  9be32465239b26dbd964495c82b426d1206e686e \
-                    sha256  5dba62f1e0b8406bca8713d0ca45ef772bbff5737ce57d9d95a600a18e0a7aa1 \
-                    size    4189953
+checksums           rmd160  6c6c25a753492e395bb74d903656fcba218687be \
+                    sha256  1596df8095a724ce79dad0a7015b2ab333bb4ab1a9dc4eb9c4a17ec15bcd80d9 \
+                    size    4543638
 
 build.args-append   -ldflags \"-s -w\" \
                     -o openai
